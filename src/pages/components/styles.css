@@ -1,0 +1,30 @@
+.navbar-menu{
+    flex-direction: column;
+    margin-right:20px !important;
+}
+.navbar-item > a {
+    padding: 5px;
+}
+
+@media screen and (min-width: 800px){
+    .navbar-menu{
+        flex-direction: row;
+        margin-right:0px;
+    }
+    .navbar-item > a {
+        padding: 20px;
+    }
+  }
+/*   
+  @media screen and (min-width: 52em) {
+    .css-1fjs75c {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+   */
+.navbar-menu{
+
+}
+
+.navbar-item{
+}
